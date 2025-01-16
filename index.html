@@ -1,0 +1,33 @@
+This is my first web project 
+
+1. Initialize local repo 
+git init
+git status -> show untracked or uncommited changes 
+
+2. Set username and email
+git config --local user.name "Ällyssa023"
+git config --local user.email "allyssaashley.dulay@lorma.edu"
+
+to view current config:
+git confiug --list --local 
+
+3. Commit changes 
+git add .  -> stage all uncommited or  new changes. Dot(.) sign 
+git add filename -> stage specific files 
+
+git commit -m "Initial commit"  -> commit changes
+
+4. Rename branch master -> main 
+git branch -m main
+
+5. Connect to remote repository (GitHub)
+Create a new repo on GitHub then copy the repo link 
+
+git remote add origin https://github.com/Allyssa023/WEBDEV_DULAY.git
+
+to show rmeote origin:
+git rmeote show origin
+
+6. Push local changes to remote repo
+git push origin main
+or set upstream or every push so next time you only run git push
