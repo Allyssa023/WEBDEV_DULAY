@@ -1,0 +1,149 @@
+/* GENERAL STYLES */
+body {
+    background: #1a1a1a; 
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    background: #121212; 
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    font-size: 18px;
+    color: white; 
+    margin: 0 20px;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: white;
+    border-bottom: 2px solid lightseagreen; 
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+/* TEXT STYLING THAT IS APPLICABLE TO ALL THE ELEMENTS */
+* {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ARTICLE */
+article {
+    background: #242424;
+    padding: 30px;
+    border-radius: 10px;
+    width: 55%;
+    margin: 40px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+article p {
+    font-size: 20px;
+    color: #e0e0e0; 
+}
+
+/* TABLE */
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #292929; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    border: 1px solid lightseagreen;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+th {
+    background: lightseagreen;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background: #393939; 
+    transition: background 0.3s ease-in-out;
+}
+
+/* FORM */
+form {
+    background: #242424;
+    width: 50%;
+    margin: 40px auto;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* FORM LABELS */
+form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* FORM INPUT */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid lightseagreen; 
+    border-radius: 5px;
+    font-size: 16px;
+    background: #1a1a1a;
+    color: white;
+}
+
+/* MESSAGE INPUT */
+form input#message {
+    height: 120px;
+}
+
+/* FORM BUTTON */
+form button {
+    background: lightseagreen; 
+    color: black;
+    padding: 12px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+    background: white;
+    color: black;
+}
+
+/* IMAGE */
+img {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border: 4px solid lightseagreen;
+}
