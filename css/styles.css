@@ -1,0 +1,124 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f0f4f8);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}  
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #70b7ff;
+  border-radius: 10px;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.form-box, .list-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #4287f5;
+  font-size: 18px;
+  border-bottom: 2px solid #e0e8f5;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.input-row {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4287f5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #3b78e0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.utang-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f9fbfd;
+  border-radius: 5px;
+  border-left: 3px solid #70b7ff;
+}
+
+.delete-button {
+  background-color: #ff7070;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: auto;
+}
+
+.delete-button:hover {
+  background-color: #e06464;
+}
+
+#empty-message {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  padding: 15px;
+}
+
+.debt-name {
+  font-weight: 500;
+}
+
+.debt-amount {
+  font-weight: 600;
+  color: #ff7070;
+}

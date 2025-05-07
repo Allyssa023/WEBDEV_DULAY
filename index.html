@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listahan ng Utang</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Listahan ng Utang</h1>
+      <p>Track and manage your debt records easily.</p>
+    </header>
+   
+    <div class="form-box">
+      <h2>Add New Debt:</h2>
+      <div class="input-row">
+        <input type="text" id="nameInput" placeholder="Enter a Name">
+      </div>
+      <div class="input-row">
+        <input type="number" id="utangInput" placeholder="Amount of Debt (₱)">
+      </div>
+      <button id="saveButton">Save</button>
+    </div>
+   
+    <div class="list-box">
+      <h2>Mga Taong Nakautang:</h2>
+      <ul id="nakautangs"></ul>
+      <p id="empty-message">No debts recorded yet!</p>
+    </div>
+   
+  <script src="js/script.js"></script>
+</body>
+</html>
